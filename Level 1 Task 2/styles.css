@@ -1,0 +1,158 @@
+/* Reset some default styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Basic styling */
+body {
+  scroll-behavior: smooth;
+  font-family: "Arial", sans-serif;
+  background-color: #d3f2fd;
+  color: #333;
+  line-height: 1.6;
+  margin: 0;
+}
+
+/* Header styles */
+header {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+header h1 {
+  font-size: 48px;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.subtitle {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+/* About section styles */
+#about {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#about img {
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  margin-bottom: 20px;
+  border: 5px solid #333;
+}
+
+.bio {
+  font-size: 18px;
+  margin-top: 20px;
+}
+
+/* Skills section styles */
+#skills {
+  padding: 60px 0;
+  text-align: center;
+}
+
+#skills h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.skills-list {
+  list-style: none;
+  padding: 0;
+}
+
+.skills-list li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  margin-right: 10px;
+}
+
+/* Projects section styles */
+#projects {
+  padding: 60px 0;
+  text-align: center;
+  display: flex;
+}
+
+.project {
+  margin-bottom: 40px;
+}
+
+.project img {
+  margin-top: 20px;
+  width: 300px;
+  max-width: 80%;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
+
+.project h3 {
+  font-size: 28px;
+  margin-top: 20px;
+  font-family: "Roboto", sans-serif;
+}
+
+.project-description {
+  font-size: 18px;
+  margin-top: 10px;
+}
+
+/* Resume section styles */
+#resume {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.resume-link {
+  font-size: 24px;
+  margin-top: 10px;
+  display: inline-block;
+  background-color: #333;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+}
+
+.resume-link a {
+  color: rgb(50, 108, 217);
+}
+
+/* Contact section styles */
+#contact {
+  padding: 60px 0;
+  text-align: center;
+}
+
+.contact-info {
+  font-size: 24px;
+  margin-top: 10px;
+}
+
+span {
+  color: blue;
+  text-decoration: underline;
+}
+/* Footer styles */
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 18px;
+}
